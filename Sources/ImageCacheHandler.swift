@@ -10,7 +10,7 @@ import PINRemoteImage
 import PINCache
 import AsyncDisplayKit
 
-enum ImageViewModel {
+public enum ImageViewModel {
 	case image(UIImage)
 	case url(URL)
 }
@@ -22,7 +22,7 @@ class ImageCacheHandler {
 	let remoteImageManager = PINRemoteImageManager()
 }
 
-extension ASNetworkImageNode {
+public extension ASNetworkImageNode {
 	func setImageURL(_ url: URL?) {
 		guard let url = url else {
 			self.placeholderEnabled = true
