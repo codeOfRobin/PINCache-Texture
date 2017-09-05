@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4239BC721F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
+		4239BC731F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
+		4239BC741F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
+		4239BC751F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
+		4239BC7B1F5EC93C00A95B7B /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */; };
+		4239BC7C1F5EC93C00A95B7B /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC781F5EC8F400A95B7B /* PINOperation.framework */; };
+		4239BC7D1F5EC93C00A95B7B /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */; };
+		4239BC7E1F5EC93C00A95B7B /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC771F5EC8F400A95B7B /* PINCache.framework */; };
 		52D6D9871BEFF229002C0205 /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* PINCacheTexture.framework */; };
 		8933C7851EB5B820000D00A4 /* PINCacheTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */; };
 		8933C7861EB5B820000D00A4 /* PINCacheTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */; };
@@ -44,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheHandler.swift; sourceTree = "<group>"; };
+		4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		4239BC771F5EC8F400A95B7B /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
+		4239BC781F5EC8F400A95B7B /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/iOS/PINOperation.framework; sourceTree = "<group>"; };
+		4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* PINCacheTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINCacheTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* PINCacheTexture-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINCacheTexture-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* PINCacheTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINCacheTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4239BC7B1F5EC93C00A95B7B /* AsyncDisplayKit.framework in Frameworks */,
+				4239BC7C1F5EC93C00A95B7B /* PINOperation.framework in Frameworks */,
+				4239BC7D1F5EC93C00A95B7B /* PINRemoteImage.framework in Frameworks */,
+				4239BC7E1F5EC93C00A95B7B /* PINCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,13 +130,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4239BC7A1F5EC93C00A95B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
+				4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */,
+				4239BC771F5EC8F400A95B7B /* PINCache.framework */,
+				4239BC781F5EC8F400A95B7B /* PINOperation.framework */,
+				4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */,
 				8933C7811EB5B7E0000D00A4 /* Sources */,
 				8933C7831EB5B7EB000D00A4 /* Tests */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
 				52D6D97D1BEFF229002C0205 /* Products */,
+				4239BC7A1F5EC93C00A95B7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */,
+				4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -347,7 +377,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "PINCacheTexture";
+				ORGANIZATIONNAME = PINCacheTexture;
 				TargetAttributes = {
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -460,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8933C7851EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
+				4239BC721F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8933C7871EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
+				4239BC741F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8933C7881EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
+				4239BC731F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8933C7861EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
+				4239BC751F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +671,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -660,6 +698,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
