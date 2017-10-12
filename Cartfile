@@ -1,1 +1,3 @@
 github "texturegroup/texture"
+github "pinterest/PINCache"
+github "pinterest/PINRemoteImage"

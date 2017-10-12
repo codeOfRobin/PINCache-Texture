@@ -28,8 +28,7 @@ public extension ASNetworkImageNode {
 			self.placeholderEnabled = true
 			return
 		}
-		
-		PINRemoteImageManager.shared().imageFromCache(with: url, processorKey: nil, options: []) { [weak self] (result) in
+		PINRemoteImageManager.shared().imageFromCache(withCacheKey: url.absoluteString, options: [.downloadOptionsIgnoreGIFs]) { [weak self] (result) in
 			if let image = result.image {
 				self?.image = image
 			} else {
