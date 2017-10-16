@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423314B61F94A9450049D5B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423314B51F94A9450049D5B5 /* AppDelegate.swift */; };
+		423314B81F94A9450049D5B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423314B71F94A9450049D5B5 /* ViewController.swift */; };
+		423314BB1F94A9450049D5B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423314B91F94A9450049D5B5 /* Main.storyboard */; };
+		423314BD1F94A9450049D5B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423314BC1F94A9450049D5B5 /* Assets.xcassets */; };
+		423314C01F94A9450049D5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423314BE1F94A9450049D5B5 /* LaunchScreen.storyboard */; };
+		423314C51F94A99D0049D5B5 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */; };
+		423314C61F94A99D0049D5B5 /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		423314C71F94A99D0049D5B5 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC771F5EC8F400A95B7B /* PINCache.framework */; };
+		423314C81F94A99D0049D5B5 /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC771F5EC8F400A95B7B /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		423314C91F94A99D0049D5B5 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC781F5EC8F400A95B7B /* PINOperation.framework */; };
+		423314CA1F94A99D0049D5B5 /* PINOperation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC781F5EC8F400A95B7B /* PINOperation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		423314CB1F94A99D0049D5B5 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */; };
+		423314CC1F94A99D0049D5B5 /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		423314CE1F94A9A10049D5B5 /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* PINCacheTexture.framework */; };
 		4239BC721F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
-		4239BC731F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
-		4239BC741F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
-		4239BC751F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */; };
 		4239BC7B1F5EC93C00A95B7B /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */; };
 		4239BC7C1F5EC93C00A95B7B /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC781F5EC8F400A95B7B /* PINOperation.framework */; };
 		4239BC7D1F5EC93C00A95B7B /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */; };
 		4239BC7E1F5EC93C00A95B7B /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4239BC771F5EC8F400A95B7B /* PINCache.framework */; };
 		52D6D9871BEFF229002C0205 /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* PINCacheTexture.framework */; };
 		8933C7851EB5B820000D00A4 /* PINCacheTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */; };
-		8933C7861EB5B820000D00A4 /* PINCacheTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */; };
-		8933C7871EB5B820000D00A4 /* PINCacheTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */; };
-		8933C7881EB5B820000D00A4 /* PINCacheTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */; };
-		8933C78E1EB5B82C000D00A4 /* PINCacheTextureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* PINCacheTextureTests.swift */; };
-		8933C78F1EB5B82C000D00A4 /* PINCacheTextureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* PINCacheTextureTests.swift */; };
 		8933C7901EB5B82D000D00A4 /* PINCacheTextureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* PINCacheTextureTests.swift */; };
-		DD7502881C68FEDE006590AF /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* PINCacheTexture.framework */; };
-		DD7502921C690C7A006590AF /* PINCacheTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* PINCacheTexture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,23 +39,33 @@
 			remoteGlobalIDString = 52D6D97B1BEFF229002C0205;
 			remoteInfo = PINCacheTexture;
 		};
-		DD7502801C68FCFC006590AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52D6DA0E1BF000BD002C0205;
-			remoteInfo = "PINCacheTexture-macOS";
-		};
-		DD7502931C690C7A006590AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52D6D9EF1BEFFFBE002C0205;
-			remoteInfo = "PINCacheTexture-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		423314CD1F94A99D0049D5B5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				423314C61F94A99D0049D5B5 /* AsyncDisplayKit.framework in Embed Frameworks */,
+				423314CA1F94A99D0049D5B5 /* PINOperation.framework in Embed Frameworks */,
+				423314CC1F94A99D0049D5B5 /* PINRemoteImage.framework in Embed Frameworks */,
+				423314C81F94A99D0049D5B5 /* PINCache.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		423314B31F94A9450049D5B5 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423314B51F94A9450049D5B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		423314B71F94A9450049D5B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		423314BA1F94A9450049D5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423314BC1F94A9450049D5B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423314BF1F94A9450049D5B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423314C11F94A9450049D5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4239BC711F5EC49A00A95B7B /* ImageCacheHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheHandler.swift; sourceTree = "<group>"; };
 		4239BC761F5EC8F400A95B7B /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		4239BC771F5EC8F400A95B7B /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
@@ -59,18 +73,25 @@
 		4239BC791F5EC8F400A95B7B /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* PINCacheTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINCacheTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* PINCacheTexture-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINCacheTexture-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9E21BEFFF6E002C0205 /* PINCacheTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINCacheTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9F01BEFFFBE002C0205 /* PINCacheTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINCacheTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6DA0F1BF000BD002C0205 /* PINCacheTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINCacheTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8933C7841EB5B820000D00A4 /* PINCacheTexture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PINCacheTexture.swift; sourceTree = "<group>"; };
 		8933C7891EB5B82A000D00A4 /* PINCacheTextureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PINCacheTextureTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* PINCacheTexture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PINCacheTexture.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* PINCacheTextureTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PINCacheTextureTests.plist; sourceTree = "<group>"; };
-		DD75027A1C68FCFC006590AF /* PINCacheTexture-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINCacheTexture-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD75028D1C690C7A006590AF /* PINCacheTexture-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINCacheTexture-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		423314B01F94A9450049D5B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423314CE1F94A9A10049D5B5 /* PINCacheTexture.framework in Frameworks */,
+				423314C51F94A99D0049D5B5 /* AsyncDisplayKit.framework in Frameworks */,
+				423314C91F94A99D0049D5B5 /* PINOperation.framework in Frameworks */,
+				423314CB1F94A99D0049D5B5 /* PINRemoteImage.framework in Frameworks */,
+				423314C71F94A99D0049D5B5 /* PINCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52D6D9781BEFF229002C0205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,46 +111,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9DE1BEFFF6E002C0205 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9EC1BEFFFBE002C0205 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6DA0B1BF000BD002C0205 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD7502771C68FCFC006590AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD7502881C68FEDE006590AF /* PINCacheTexture.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD75028A1C690C7A006590AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD7502921C690C7A006590AF /* PINCacheTexture.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423314B41F94A9450049D5B5 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				423314B51F94A9450049D5B5 /* AppDelegate.swift */,
+				423314B71F94A9450049D5B5 /* ViewController.swift */,
+				423314B91F94A9450049D5B5 /* Main.storyboard */,
+				423314BC1F94A9450049D5B5 /* Assets.xcassets */,
+				423314BE1F94A9450049D5B5 /* LaunchScreen.storyboard */,
+				423314C11F94A9450049D5B5 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		4239BC7A1F5EC93C00A95B7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +144,7 @@
 				8933C7811EB5B7E0000D00A4 /* Sources */,
 				8933C7831EB5B7EB000D00A4 /* Tests */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
+				423314B41F94A9450049D5B5 /* Example */,
 				52D6D97D1BEFF229002C0205 /* Products */,
 				4239BC7A1F5EC93C00A95B7B /* Frameworks */,
 			);
@@ -157,11 +155,7 @@
 			children = (
 				52D6D97C1BEFF229002C0205 /* PINCacheTexture.framework */,
 				52D6D9861BEFF229002C0205 /* PINCacheTexture-iOS Tests.xctest */,
-				52D6D9E21BEFFF6E002C0205 /* PINCacheTexture.framework */,
-				52D6D9F01BEFFFBE002C0205 /* PINCacheTexture.framework */,
-				52D6DA0F1BF000BD002C0205 /* PINCacheTexture.framework */,
-				DD75027A1C68FCFC006590AF /* PINCacheTexture-macOS Tests.xctest */,
-				DD75028D1C690C7A006590AF /* PINCacheTexture-tvOS Tests.xctest */,
+				423314B31F94A9450049D5B5 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,30 +213,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9DF1BEFFF6E002C0205 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9ED1BEFFFBE002C0205 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6DA0C1BF000BD002C0205 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		423314B21F94A9450049D5B5 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423314C21F94A9450049D5B5 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				423314AF1F94A9450049D5B5 /* Sources */,
+				423314B01F94A9450049D5B5 /* Frameworks */,
+				423314B11F94A9450049D5B5 /* Resources */,
+				423314CD1F94A99D0049D5B5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 423314B31F94A9450049D5B5 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		52D6D97B1BEFF229002C0205 /* PINCacheTexture-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D6D9901BEFF229002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-iOS" */;
@@ -279,132 +270,27 @@
 			productReference = 52D6D9861BEFF229002C0205 /* PINCacheTexture-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		52D6D9E11BEFFF6E002C0205 /* PINCacheTexture-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-watchOS" */;
-			buildPhases = (
-				52D6D9DD1BEFFF6E002C0205 /* Sources */,
-				52D6D9DE1BEFFF6E002C0205 /* Frameworks */,
-				52D6D9DF1BEFFF6E002C0205 /* Headers */,
-				52D6D9E01BEFFF6E002C0205 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PINCacheTexture-watchOS";
-			productName = "PINCacheTexture-watchOS";
-			productReference = 52D6D9E21BEFFF6E002C0205 /* PINCacheTexture.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		52D6D9EF1BEFFFBE002C0205 /* PINCacheTexture-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-tvOS" */;
-			buildPhases = (
-				52D6D9EB1BEFFFBE002C0205 /* Sources */,
-				52D6D9EC1BEFFFBE002C0205 /* Frameworks */,
-				52D6D9ED1BEFFFBE002C0205 /* Headers */,
-				52D6D9EE1BEFFFBE002C0205 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PINCacheTexture-tvOS";
-			productName = "PINCacheTexture-tvOS";
-			productReference = 52D6D9F01BEFFFBE002C0205 /* PINCacheTexture.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		52D6DA0E1BF000BD002C0205 /* PINCacheTexture-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-macOS" */;
-			buildPhases = (
-				52D6DA0A1BF000BD002C0205 /* Sources */,
-				52D6DA0B1BF000BD002C0205 /* Frameworks */,
-				52D6DA0C1BF000BD002C0205 /* Headers */,
-				52D6DA0D1BF000BD002C0205 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PINCacheTexture-macOS";
-			productName = "PINCacheTexture-macOS";
-			productReference = 52D6DA0F1BF000BD002C0205 /* PINCacheTexture.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD7502791C68FCFC006590AF /* PINCacheTexture-macOS Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "PINCacheTexture-macOS Tests" */;
-			buildPhases = (
-				DD7502761C68FCFC006590AF /* Sources */,
-				DD7502771C68FCFC006590AF /* Frameworks */,
-				DD7502781C68FCFC006590AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD7502811C68FCFC006590AF /* PBXTargetDependency */,
-			);
-			name = "PINCacheTexture-macOS Tests";
-			productName = "PINCacheTexture-OS Tests";
-			productReference = DD75027A1C68FCFC006590AF /* PINCacheTexture-macOS Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DD75028C1C690C7A006590AF /* PINCacheTexture-tvOS Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "PINCacheTexture-tvOS Tests" */;
-			buildPhases = (
-				DD7502891C690C7A006590AF /* Sources */,
-				DD75028A1C690C7A006590AF /* Frameworks */,
-				DD75028B1C690C7A006590AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD7502941C690C7A006590AF /* PBXTargetDependency */,
-			);
-			name = "PINCacheTexture-tvOS Tests";
-			productName = "PINCacheTexture-tvOS Tests";
-			productReference = DD75028D1C690C7A006590AF /* PINCacheTexture-tvOS Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		52D6D9731BEFF229002C0205 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = PINCacheTexture;
 				TargetAttributes = {
+					423314B21F94A9450049D5B5 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 7G2XZXD8B4;
+						ProvisioningStyle = Automatic;
+					};
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
 						LastSwiftMigration = 0800;
 					};
 					52D6D9851BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
-					};
-					52D6D9E11BEFFF6E002C0205 = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
-					};
-					52D6D9EF1BEFFFBE002C0205 = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
-					};
-					52D6DA0E1BF000BD002C0205 = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
-					};
-					DD7502791C68FCFC006590AF = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
-					};
-					DD75028C1C690C7A006590AF = {
-						CreatedOnToolsVersion = 7.2.1;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -415,6 +301,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 52D6D9721BEFF229002C0205;
 			productRefGroup = 52D6D97D1BEFF229002C0205 /* Products */;
@@ -422,17 +309,23 @@
 			projectRoot = "";
 			targets = (
 				52D6D97B1BEFF229002C0205 /* PINCacheTexture-iOS */,
-				52D6DA0E1BF000BD002C0205 /* PINCacheTexture-macOS */,
-				52D6D9E11BEFFF6E002C0205 /* PINCacheTexture-watchOS */,
-				52D6D9EF1BEFFFBE002C0205 /* PINCacheTexture-tvOS */,
 				52D6D9851BEFF229002C0205 /* PINCacheTexture-iOS Tests */,
-				DD7502791C68FCFC006590AF /* PINCacheTexture-macOS Tests */,
-				DD75028C1C690C7A006590AF /* PINCacheTexture-tvOS Tests */,
+				423314B21F94A9450049D5B5 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		423314B11F94A9450049D5B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423314C01F94A9450049D5B5 /* LaunchScreen.storyboard in Resources */,
+				423314BD1F94A9450049D5B5 /* Assets.xcassets in Resources */,
+				423314BB1F94A9450049D5B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52D6D97A1BEFF229002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,44 +340,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9E01BEFFF6E002C0205 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9EE1BEFFFBE002C0205 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6DA0D1BF000BD002C0205 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD7502781C68FCFC006590AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD75028B1C690C7A006590AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		423314AF1F94A9450049D5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423314B81F94A9450049D5B5 /* ViewController.swift in Sources */,
+				423314B61F94A9450049D5B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52D6D9771BEFF229002C0205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,49 +369,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9DD1BEFFF6E002C0205 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8933C7871EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
-				4239BC741F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9EB1BEFFFBE002C0205 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8933C7881EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
-				4239BC731F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6DA0A1BF000BD002C0205 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8933C7861EB5B820000D00A4 /* PINCacheTexture.swift in Sources */,
-				4239BC751F5EC49A00A95B7B /* ImageCacheHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD7502761C68FCFC006590AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8933C78F1EB5B82C000D00A4 /* PINCacheTextureTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD7502891C690C7A006590AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8933C78E1EB5B82C000D00A4 /* PINCacheTextureTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -553,19 +377,84 @@
 			target = 52D6D97B1BEFF229002C0205 /* PINCacheTexture-iOS */;
 			targetProxy = 52D6D9881BEFF229002C0205 /* PBXContainerItemProxy */;
 		};
-		DD7502811C68FCFC006590AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52D6DA0E1BF000BD002C0205 /* PINCacheTexture-macOS */;
-			targetProxy = DD7502801C68FCFC006590AF /* PBXContainerItemProxy */;
-		};
-		DD7502941C690C7A006590AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52D6D9EF1BEFFFBE002C0205 /* PINCacheTexture-tvOS */;
-			targetProxy = DD7502931C690C7A006590AF /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		423314B91F94A9450049D5B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423314BA1F94A9450049D5B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423314BE1F94A9450049D5B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423314BF1F94A9450049D5B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		423314C31F94A9450049D5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2XZXD8B4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423314C41F94A9450049D5B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2XZXD8B4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		52D6D98E1BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -752,204 +641,18 @@
 			};
 			name = Release;
 		};
-		52D6D9E81BEFFF6E002C0205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-watchOS";
-				PRODUCT_NAME = PINCacheTexture;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		52D6D9E91BEFFF6E002C0205 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-watchOS";
-				PRODUCT_NAME = PINCacheTexture;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		52D6DA021BEFFFBE002C0205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-tvOS";
-				PRODUCT_NAME = PINCacheTexture;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		52D6DA031BEFFFBE002C0205 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-tvOS";
-				PRODUCT_NAME = PINCacheTexture;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		52D6DA211BF000BD002C0205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-macOS";
-				PRODUCT_NAME = PINCacheTexture;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		52D6DA221BF000BD002C0205 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-macOS";
-				PRODUCT_NAME = PINCacheTexture;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DD7502831C68FCFC006590AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Configs/PINCacheTextureTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-macOS-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		DD7502841C68FCFC006590AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Configs/PINCacheTextureTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-macOS-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DD7502961C690C7A006590AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Configs/PINCacheTextureTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-tvOS-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Debug;
-		};
-		DD7502971C690C7A006590AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Configs/PINCacheTextureTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PINCacheTexture.PINCacheTexture-tvOS-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		423314C21F94A9450049D5B5 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423314C31F94A9450049D5B5 /* Debug */,
+				423314C41F94A9450049D5B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "PINCacheTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -973,51 +676,6 @@
 			buildConfigurations = (
 				52D6D9941BEFF229002C0205 /* Debug */,
 				52D6D9951BEFF229002C0205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52D6D9E81BEFFF6E002C0205 /* Debug */,
-				52D6D9E91BEFFF6E002C0205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52D6DA011BEFFFBE002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52D6DA021BEFFFBE002C0205 /* Debug */,
-				52D6DA031BEFFFBE002C0205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52D6DA201BF000BD002C0205 /* Build configuration list for PBXNativeTarget "PINCacheTexture-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52D6DA211BF000BD002C0205 /* Debug */,
-				52D6DA221BF000BD002C0205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD7502821C68FCFC006590AF /* Build configuration list for PBXNativeTarget "PINCacheTexture-macOS Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD7502831C68FCFC006590AF /* Debug */,
-				DD7502841C68FCFC006590AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD7502951C690C7A006590AF /* Build configuration list for PBXNativeTarget "PINCacheTexture-tvOS Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD7502961C690C7A006590AF /* Debug */,
-				DD7502971C690C7A006590AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

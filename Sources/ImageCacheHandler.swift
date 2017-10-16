@@ -6,7 +6,6 @@
 //  Copyright © 2017 Robin Malhotra. All rights reserved.
 //
 
-import PINRemoteImage
 import PINCache
 import AsyncDisplayKit
 
@@ -16,10 +15,7 @@ public enum ImageViewModel {
 }
 
 class ImageCacheHandler {
-
-	static let shared = ImageCacheHandler()
-	let cache = PINCache(name: "kayako-avatar-cache")
-	let remoteImageManager = PINRemoteImageManager()
+	static var isLoggingEnabled: Bool = false
 }
 
 public extension ASNetworkImageNode {
@@ -28,16 +24,39 @@ public extension ASNetworkImageNode {
 			self.placeholderEnabled = true
 			return
 		}
-		print("🖼 downloading url: \(url)")
-		PINRemoteImageManager.shared().imageFromCache(withCacheKey: url.absoluteString, options: [.downloadOptionsIgnoreGIFs]) { [weak self] (result) in
-			if let image = result.image {
-				print("🖼received image from cache: \(url)")
-				self?.image = image
-			} else {
-				PINRemoteImageManager.shared().downloadImage(with: url, options: []) { (result) in
-					print("🖼 downloaded image: \(String(describing: result.image)) from url: \(url) with error: \(String(describing: result.error))")
-					self?.image = result.image
+		
+		if ImageCacheHandler.isLoggingEnabled {
+			print("🖼 downloading url: \(url)")
+		}
+		
+		PINCache.shared().object(forKey: url.absoluteString) { (cache, key, object) in
+			if let image = object as? UIImage {
+				if ImageCacheHandler.isLoggingEnabled {
+					print("🖼received image from cache: \(url)")
 				}
+				self.image = image
+			} else {
+				URLSession.shared.dataTask(with: url, completionHandler: { (data, _, _) in
+					guard let data = data else {
+						if ImageCacheHandler.isLoggingEnabled {
+							print("🖼 couldn't download imagefrom cache: \(url)")
+						}
+						return
+					}
+					
+					guard let img = UIImage(data: data, scale:UIScreen.main.scale) else {
+						if ImageCacheHandler.isLoggingEnabled {
+							print("🖼 couldn't decode image from \(url)")
+						}
+						return
+					}
+					
+					PINCache.shared().setObject(img, forKey: url.absoluteString)
+					if ImageCacheHandler.isLoggingEnabled {
+						print("🖼 image successfully downloaded from \(url)")
+					}
+					self.image = img
+				}).resume()
 			}
 		}
 	}
