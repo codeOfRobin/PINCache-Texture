@@ -28,11 +28,14 @@ public extension ASNetworkImageNode {
 			self.placeholderEnabled = true
 			return
 		}
+		print("🖼 downloading url: \(url)")
 		PINRemoteImageManager.shared().imageFromCache(withCacheKey: url.absoluteString, options: [.downloadOptionsIgnoreGIFs]) { [weak self] (result) in
 			if let image = result.image {
+				print("🖼received image from cache: \(url)")
 				self?.image = image
 			} else {
 				PINRemoteImageManager.shared().downloadImage(with: url, options: []) { (result) in
+					print("🖼 downloaded image from url: \(url)")
 					self?.image = result.image
 				}
 			}
