@@ -35,7 +35,7 @@ public extension ASNetworkImageNode {
 				self?.image = image
 			} else {
 				PINRemoteImageManager.shared().downloadImage(with: url, options: []) { (result) in
-					print("🖼 downloaded image from url: \(url)")
+					print("🖼 downloaded image: \(String(describing: result.image)) from url: \(url) with error: \(String(describing: result.error))")
 					self?.image = result.image
 				}
 			}
