@@ -60,13 +60,4 @@ public extension ASNetworkImageNode {
 			}
 		}
 	}
-	
-	func setImage(viewModel: ImageViewModel) {
-		switch viewModel {
-		case .image(let image):
-			self.image = image
-		case .url(let url):
-			self.setImageURL(url)
-		}
-	}
 }
