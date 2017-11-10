@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PINCacheTexture"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Links PINCache to Texture"
   s.description  = "Links PINCache to Texture. Compatible with iOS 8.0 and above"
   s.homepage     = "https://github.com/codeOfRobin/PINCache-Texture"
