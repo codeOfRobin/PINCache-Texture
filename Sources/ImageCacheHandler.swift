@@ -28,8 +28,11 @@ public extension ASNetworkImageNode {
 		if ImageCacheHandler.isLoggingEnabled {
 			print("🖼 downloading url: \(url)")
 		}
-		
-		PINCache.shared.object(forKeyAsync: url.absoluteString) { (cache, key, object) in
+
+		PINCache.shared().object(forKey: url.absoluteString) { (cache, key, object) in
+
+		}
+		PINCache.shared().object(forKey: url.absoluteString) { (cache, key, object) in
 			if let image = object as? UIImage {
 				if ImageCacheHandler.isLoggingEnabled {
 					print("🖼received image from cache: \(url)")
@@ -51,7 +54,7 @@ public extension ASNetworkImageNode {
 						return
 					}
 
-					PINCache.shared.setObjectAsync(img, forKey: url.absoluteString, completion: nil)
+					PINCache.shared().setObject(img, forKey: url.absoluteString, block: nil)
 					if ImageCacheHandler.isLoggingEnabled {
 						print("🖼 image successfully downloaded from \(url)")
 					}
