@@ -19,6 +19,16 @@ class ImageCacheHandler {
 }
 
 public extension ASNetworkImageNode {
+
+	func setImageVM(_ imageViewModel: ImageViewModel) {
+		switch imageViewModel {
+		case .image(let image):
+			self.image = image
+		case .url(let url):
+			self.setImageURL(url)
+		}
+	}
+
 	func setImageURL(_ url: URL?) {
 		guard let url = url else {
 			self.placeholderEnabled = true
