@@ -1,0 +1,39 @@
+name: PINCacheTexture
+options:
+  deploymentTarget:
+    iOS: 10.0
+targets:
+  PINCacheTexture:
+    type: framework
+    platform: iOS
+    sources: Sources
+    scheme:
+      gatherCoverageData: true
+      testTargets:
+        - PINCacheTextureTests
+    dependencies:
+      - carthage: AsyncDisplayKit
+      - carthage: PINCache 
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rmalhotra.pincachetexture
+        INFOPLIST_FILE: Configs/PINCacheTexture.plist
+  PINCacheTextureTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: Tests
+    dependencies:
+      - target: PINCacheTexture
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rmalhotra.pincachetexturetests
+        INFOPLIST_FILE: Configs/PINCacheTextureTests.plist
+  Example:
+    type: application
+    platform: iOS
+    sources: Example
+    dependencies:
+      - target: PINCacheTexture
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rmalhotra.Example

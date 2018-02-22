@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+               BlueprintIdentifier = "NT_373788176295"
                BuildableName = "PINCacheTexture.framework"
-               BlueprintName = "PINCacheTexture-iOS"
+               BlueprintName = "PINCacheTexture"
                ReferencedContainer = "container:PINCacheTexture.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52D6D9851BEFF229002C0205"
-               BuildableName = "PINCacheTexture-iOS Tests.xctest"
-               BlueprintName = "PINCacheTexture-iOS Tests"
+               BlueprintIdentifier = "NT_907266299114"
+               BuildableName = "PINCacheTextureTests.xctest"
+               BlueprintName = "PINCacheTextureTests"
                ReferencedContainer = "container:PINCacheTexture.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BlueprintIdentifier = "NT_373788176295"
             BuildableName = "PINCacheTexture.framework"
-            BlueprintName = "PINCacheTexture-iOS"
+            BlueprintName = "PINCacheTexture"
             ReferencedContainer = "container:PINCacheTexture.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,15 +64,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BlueprintIdentifier = "NT_373788176295"
             BuildableName = "PINCacheTexture.framework"
-            BlueprintName = "PINCacheTexture-iOS"
+            BlueprintName = "PINCacheTexture"
             ReferencedContainer = "container:PINCacheTexture.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -82,15 +83,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52D6D97B1BEFF229002C0205"
+            BlueprintIdentifier = "NT_373788176295"
             BuildableName = "PINCacheTexture.framework"
-            BlueprintName = "PINCacheTexture-iOS"
+            BlueprintName = "PINCacheTexture"
             ReferencedContainer = "container:PINCacheTexture.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

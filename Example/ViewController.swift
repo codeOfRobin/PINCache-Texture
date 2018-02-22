@@ -7,6 +7,7 @@
 //
 
 import AsyncDisplayKit
+import PINCache
 import PINCacheTexture
 
 class ViewController: UIViewController {
@@ -24,14 +25,17 @@ class ViewController: UIViewController {
 		
 		
 		node1.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-		node1.setImageURL(URL.init(string: "https://kayako-mobile-testing.kayako.com/avatar/get/2c15cff7-c76e-5362-b39e-2d22d0c70b00?1508142242"))
+		node1.setImageVM(.url(URL(string: "https://lorempixel.com/200/200/")!), placeholderImage: #imageLiteral(resourceName: "Image"))
 		
 		node2.frame = CGRect(x: 100, y: 0, width: 100, height: 100)
 		node2.setImageURL(URL.init(string: "https://kayako-mobile-testing.kayako.com/avatar/get/22e238af-5bcd-5159-a4ac-e7f016821151?1508139874"))
 		
 		node3.frame = CGRect(x: 200, y: 0, width: 100, height: 100)
 		node3.setImageURL(URL.init(string: "https://kayako-mobile-testing.kayako.com/avatar/get/1e4dd52f-6383-5e07-aed0-864c06d6b232?1508135367"))
-		
+
+		DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
+			PINCache.shared().removeAllObjects()
+		}
 	}
 
 	override func didReceiveMemoryWarning() {

@@ -20,7 +20,10 @@ class ImageCacheHandler {
 
 public extension ASNetworkImageNode {
 
-	func setImageVM(_ imageViewModel: ImageViewModel) {
+	func setImageVM(_ imageViewModel: ImageViewModel, placeholderImage: UIImage? = nil) {
+		self.placeholderFadeDuration = 0.5
+		self.placeholderEnabled = true
+		self.defaultImage = placeholderImage
 		switch imageViewModel {
 		case .image(let image):
 			self.image = image
@@ -31,7 +34,6 @@ public extension ASNetworkImageNode {
 
 	func setImageURL(_ url: URL?) {
 		guard let url = url else {
-			self.placeholderEnabled = true
 			return
 		}
 		
@@ -39,9 +41,6 @@ public extension ASNetworkImageNode {
 			print("🖼 downloading url: \(url)")
 		}
 
-		PINCache.shared().object(forKey: url.absoluteString) { (cache, key, object) in
-
-		}
 		PINCache.shared().object(forKey: url.absoluteString) { (cache, key, object) in
 			if let image = object as? UIImage {
 				if ImageCacheHandler.isLoggingEnabled {
