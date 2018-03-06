@@ -32,7 +32,7 @@ public extension ASNetworkImageNode {
 		}
 	}
 
-	func setImageURL(_ url: URL?) {
+	private func setImageURL(_ url: URL?) {
 		guard let url = url else {
 			return
 		}
