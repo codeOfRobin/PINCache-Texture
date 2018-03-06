@@ -66,7 +66,7 @@
 		FR_649556874164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_752755466093 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		FR_767799654798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FR_811841688257 /* Example.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_811841688257 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_817210504159 /* PINCacheTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCacheTexture.swift; sourceTree = "<group>"; };
 		FR_907266299114 /* PINCacheTextureTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = file; path = PINCacheTextureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -249,6 +249,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					NT_811841688257 = {
+						DevelopmentTeam = FT6Z43AJD2;
+					};
+				};
 			};
 			buildConfigurationList = CL_373788176295 /* Build configuration list for PBXProject "PINCacheTexture" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -371,11 +376,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FT6Z43AJD2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.Example;
 				SDKROOT = iphoneos;
@@ -421,11 +428,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FT6Z43AJD2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.Example;
 				SDKROOT = iphoneos;
@@ -506,6 +515,7 @@
 				);
 				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.pincachetexture;
 				SDKROOT = iphoneos;
@@ -531,6 +541,7 @@
 				);
 				INFOPLIST_FILE = Configs/PINCacheTexture.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmalhotra.pincachetexture;
 				SDKROOT = iphoneos;
