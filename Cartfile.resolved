@@ -1,5 +1,5 @@
 git "https://chromium.googlesource.com/webm/libwebp" "v0.6.0"
+github "codeOfRobin/texture" "9cea612235369a3443b567bd6410bb5a4070ce75"
 github "pinterest/PINCache" "3.0.1-beta.6"
 github "pinterest/PINOperation" "1.1.1"
 github "pinterest/PINRemoteImage" "3.0.0-beta.13"
-github "texturegroup/texture" "2.6"
